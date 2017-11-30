@@ -7,10 +7,6 @@
 
 }
 
-html, body {
-	height:100%;
-}
-
 body {
 	background-image: url("../images/background.jpg");
 	/* Set rules to fill background */
@@ -125,7 +121,6 @@ a:hover {
 .contentarea {
 	width:960px;
 	margin-left:200px;
-	flex: 1 0 auto;
 }	
 
 #main {
@@ -355,6 +350,7 @@ Portfolio page specific*/
 	margin-left:200px;
 }
 
+
 #portfolioPage .about {
 	font-size:22px;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -376,8 +372,11 @@ Portfolio page specific*/
 	height:100%;
 	background-color: rgba(179,101,115, 0.7);
 	color:#010101;
-	padding:40px;
-	margin-top:85px;
+	padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 100%;
+    margin-top: 90px;
 	border: 1px solid #010101;
 	position: relative;
 }
@@ -446,7 +445,7 @@ Portfolio page specific*/
 }
 
 #portfolioPage .aside-part {
-	margin-top:-860px;
+	margin-top: -1780px;
 }
 
 
